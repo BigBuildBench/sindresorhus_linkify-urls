@@ -1,0 +1,54 @@
+{
+  "name": "linkify-urls",
+  "version": "5.0.2",
+  "description": "Linkify URLs in a string",
+  "license": "MIT",
+  "repository": "sindresorhus/linkify-urls",
+  "funding": "https://github.com/sponsors/sindresorhus",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com"
+  },
+  "type": "module",
+  "exports": {
+    "types": "./index.d.ts",
+    "default": "./index.js"
+  },
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "keywords": [
+    "linkify",
+    "urls",
+    "url",
+    "link",
+    "reference",
+    "references",
+    "linkifies",
+    "href",
+    "string",
+    "text",
+    "dom"
+  ],
+  "devDependencies": {
+    "ava": "^6.1.3",
+    "jsdom": "^25.0.0",
+    "tsd": "^0.31.1",
+    "xo": "^0.59.3"
+  },
+  "xo": {
+    "envs": [
+      "node",
+      "browser"
+    ]
+  }
+}
